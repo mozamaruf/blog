@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     #headerwrapp {
         background: url(../img/back11.jpg) no-repeat center top;
         margin-top: -70px;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     #headerwrapd {
         min-height: 650px;
     }
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     #headerwrapr {
         background: url(../img/back33.jpg) no-repeat center top;
         margin-top: -70px;
