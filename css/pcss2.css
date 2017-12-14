@@ -103,13 +103,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Projects */
 
 #headerwrapp {
-	background: url(../img/back11.jpg) no-repeat center top;
+	background: url(../img/back11s.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 550px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -121,6 +121,30 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    #headerwrapp {
+        background: url(../img/back11.jpg) no-repeat center top;
+        margin-top: -70px;
+        padding-top: 250px;
+        text-align:center;
+        background-attachment: relative;
+        background-position: center center;
+        min-height: 650px;
+        width: 100%;
+        
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
 }
 
 #headerwrapp h1 {
@@ -146,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -158,6 +182,12 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    #headerwrapd {
+        min-height: 650px;
+    }
 }
 
 #headerwrapd h1 {
@@ -177,13 +207,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Research */
 
 #headerwrapr {
-	background: url(../img/back33.jpg) no-repeat center top;
+	background: url(../img/back33s.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 420px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -196,6 +226,31 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+@media (min-width: 768px) {
+    #headerwrapr {
+        background: url(../img/back33.jpg) no-repeat center top;
+        margin-top: -70px;
+        padding-top: 250px;
+        text-align:center;
+        background-attachment: relative;
+        background-position: center center;
+        min-height: 650px;
+        width: 100%;
+        
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+}
+
 
 #headerwrapr h1 {
 	color:#ffffff;
