@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -314,6 +314,11 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+@media (min-width: 500px) {
+    #workwrap {
+      min-height: 650px; }
+  }
 
 #workwrap h1 {
 	color:#ffffff;
@@ -349,6 +354,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 #portfolio {
     width: 100%}
